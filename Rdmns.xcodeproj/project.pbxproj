@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000012B00000000000001 /* RdmnsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000012B00000000000001 /* RdmnsApp.swift */; };
+		A10000022B00000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000022B00000000000002 /* ContentView.swift */; };
+		A10000032B00000000000003 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000032B00000000000003 /* WebView.swift */; };
+		A10000042B00000000000004 /* LiveNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000042B00000000000004 /* LiveNotificationManager.swift */; };
+		A10000052B00000000000005 /* AutoUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000052B00000000000005 /* AutoUpdater.swift */; };
+		A10000062B00000000000006 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10000062B00000000000006 /* WebKit.framework */; };
+		A10000072B00000000000007 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10000072B00000000000007 /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000002B00000000000000 /* Rdmns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rdmns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000012B00000000000001 /* RdmnsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RdmnsApp.swift; sourceTree = "<group>"; };
+		B10000022B00000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000032B00000000000003 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B10000042B00000000000004 /* LiveNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveNotificationManager.swift; sourceTree = "<group>"; };
+		B10000052B00000000000005 /* AutoUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoUpdater.swift; sourceTree = "<group>"; };
+		B10000062B00000000000006 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B10000072B00000000000007 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		B10000082B00000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000002B00000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000062B00000000000006 /* WebKit.framework in Frameworks */,
+				A10000072B00000000000007 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000002B00000000000000 = {
+			isa = PBXGroup;
+			children = (
+				D10000012B00000000000001 /* Rdmns */,
+				D10000022B00000000000002 /* Products */,
+				D10000032B00000000000003 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000012B00000000000001 /* Rdmns */ = {
+			isa = PBXGroup;
+			children = (
+				B10000012B00000000000001 /* RdmnsApp.swift */,
+				B10000022B00000000000002 /* ContentView.swift */,
+				B10000032B00000000000003 /* WebView.swift */,
+				B10000042B00000000000004 /* LiveNotificationManager.swift */,
+				B10000052B00000000000005 /* AutoUpdater.swift */,
+				B10000082B00000000000008 /* Info.plist */,
+			);
+			path = .;
+			sourceTree = "<group>";
+		};
+		D10000022B00000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000002B00000000000000 /* Rdmns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10000032B00000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B10000062B00000000000006 /* WebKit.framework */,
+				B10000072B00000000000007 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000002B00000000000000 /* Rdmns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000002B00000000000000 /* Build configuration list for PBXNativeTarget "Rdmns" */;
+			buildPhases = (
+				G10000002B00000000000000 /* Sources */,
+				C10000002B00000000000000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rdmns;
+			productName = Rdmns;
+			productReference = B10000002B00000000000000 /* Rdmns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		H10000002B00000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E10000002B00000000000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F10000012B00000000000001 /* Build configuration list for PBXProject "Rdmns" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10000002B00000000000000;
+			productRefGroup = D10000022B00000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000002B00000000000000 /* Rdmns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		G10000002B00000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000012B00000000000001 /* RdmnsApp.swift in Sources */,
+				A10000022B00000000000002 /* ContentView.swift in Sources */,
+				A10000032B00000000000003 /* WebView.swift in Sources */,
+				A10000042B00000000000004 /* LiveNotificationManager.swift in Sources */,
+				A10000052B00000000000005 /* AutoUpdater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		I10000012B00000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.hesn.rdmns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		I10000022B00000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.hesn.rdmns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		I10000032B00000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		I10000042B00000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000002B00000000000000 /* Build configuration list for PBXNativeTarget "Rdmns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				I10000012B00000000000001 /* Debug */,
+				I10000022B00000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000012B00000000000001 /* Build configuration list for PBXProject "Rdmns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				I10000032B00000000000003 /* Debug */,
+				I10000042B00000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = H10000002B00000000000000 /* Project object */;
+}
